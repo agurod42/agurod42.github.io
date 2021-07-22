@@ -958,12 +958,12 @@
 	color: #171717;
 	font-weight: 500;
 	text-transform: uppercase;
+	word-wrap: break-word;
 }
 
 /* 4.5 Clients */
 .client-items {
 	font-size: 0;
-	text-align: center;
 }
 
 .client-items .client-item img {
