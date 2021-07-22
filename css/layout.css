@@ -3292,3 +3292,10 @@ p.no-comments {
 .typed-cursor {
     display: none!important;
 }
+
+/*
+ Misc
+*/
+.grecaptcha-badge { 
+	  visibility: hidden;
+}
