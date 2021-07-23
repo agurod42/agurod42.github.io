@@ -575,3 +575,11 @@ function initMap() {
 		title: 'We are here!'
 	});
 }
+
+/*
+  Misc
+ */
+
+function submitContactForm() {
+	$('#cform').submit();
+}
