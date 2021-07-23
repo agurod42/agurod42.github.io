@@ -966,7 +966,13 @@
 	font-size: 0;
 }
 
+.client-items .client-item {
+	text-align: center;
+}
+
 .client-items .client-item img {
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 	max-width: 92px;
 	opacity: 0.4;
 }
