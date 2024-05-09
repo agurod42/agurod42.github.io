@@ -1,2 +1,4 @@
+get-pip.py
 node_modules
+.cache
 .DS_Store

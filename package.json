@@ -1,22 +1,30 @@
 {
-  "name": "agurodriguez.github.io",
+  "name": "agu.uy",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "http-server . -c-1"
+    "build": "parcel build index.html",
+    "dev": "parcel index.html"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/agurodriguez/agurodriguez.github.io.git"
-  },
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/agurodriguez/agurodriguez.github.io/issues"
-  },
-  "homepage": "https://github.com/agurodriguez/agurodriguez.github.io#readme",
+  "author": "Agu Rodríguez",
+  "license": "WTFPL",
   "devDependencies": {
-    "http-server": "^0.12.3"
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-plugin-module-resolver": "^5.0.2",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "node-sass": "^9.0.0",
+    "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "assets": "^3.0.1",
+    "font-awesome": "^4.7.0",
+    "ramda": "^0.30.0",
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0",
+    "styled": "^1.0.0",
+    "styled-components": "^3.4.5"
   }
 }
