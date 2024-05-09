@@ -2,7 +2,7 @@
   "name": "agu.uy",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "docs/index.js",
   "scripts": {
     "build": "parcel build index.html",
     "dev": "parcel index.html"
