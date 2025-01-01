@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { ProfileImage } from './profile-image'
 import { Background } from './background';
-import bannerUrl from '../../assets/cover.png';
+import bannerUrl from '../../assets/cover.jpg';
 import pipUrl from '../../assets/profile.jpg';
 import { headerHeight } from '../../styleguide/breakpoints'
 
