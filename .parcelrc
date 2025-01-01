@@ -1,0 +1,8 @@
+{
+  "extends": "@parcel/config-default",
+  "targets": {
+    "default": {
+      "distDir": "./docs"
+    }
+  }
+}
